@@ -1,24 +1,4 @@
-/*
-Template Name: Eatsome - Restaurant & Food Delivery Mobile Template
-Author: Askbootstrap
-Author URI: https://themeforest.net/user/askbootstrap
-Version: 0.1
-*/
 
-/*
-- Import Font and Icon
-- Body
-- Scroll Bar
-- Custom Bootstrap
-- Custom Sizes
-- Products
-- Sort By
-- Search List
-- Notification
-- Offers
-*/
-
-/* Import Font and Icon */ 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&amp;display=swap');
 @import url("../../../../cdn.jsdelivr.net/npm/bootstrap-icons%401.10.3/font/bootstrap-icons.css");
 
@@ -29,7 +9,7 @@ body{
     font-size: 12px;
 }
 :root{
-    --red:#eb394d;
+    --green:#65b52f;
 }
 a{
     text-decoration: none;
@@ -62,7 +42,7 @@ html ::-webkit-scrollbar-track-piece {
     font-weight: 500!important;
 }
 hr{
-    border-top: 1px solid #a4a4a4 !important;
+    border-top: 1px solid #65b52f !important;
 }
 .btn-outline-secondary {
     border-color: #dee2e6;
@@ -79,7 +59,7 @@ hr{
     color: #000;
 }
 .links span{
-    color: grey;
+    color: #65b52f;
 }
 .links span:hover{
     color: #000;
